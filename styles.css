@@ -1,0 +1,66 @@
+button {
+    all: unset;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgba(56, 51, 51, 0.9);
+    max-height: 55px;
+  }
+
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropbutton{
+    max-width: max-content;
+  }
+
+  .dropdown .dropbutton {
+    background-color: inherit;
+    font-family: inherit;
+
+
+    font-size: 16px;
+    color: white;
+
+  }
+  
+  .navbar a:hover, .dropdown:hover {
+    background-color: rgb(157, 124, 103);
+  }
+  
+  .dropcontent {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 10px 0px rgba(70, 52, 52, 0.354);
+    z-index: 1;
+  }
+  
+  .dropcontent a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    display: block;
+    text-align: left;
+  }
+
+  .dropcontent a:hover {
+    background-color: rgb(253, 226, 226);
+  }
+  
+  .dropdown:hover .dropcontent {
+    display: block;
+  }
