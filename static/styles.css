@@ -1,3 +1,8 @@
+
+*{
+  font-family: 'Open Sans',;
+}
+
 button {
   all: unset;
 }
@@ -6,14 +11,15 @@ body{
   margin:0;
 }
 
-.navbar {
+.navv {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
   background-color: rgba(56, 51, 51, 0.9);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.navbar a {
+.navv a {
   float: left;
   color: white;
   text-align: center;
@@ -38,7 +44,7 @@ body{
 
 }
 
-.navbar a:hover, .dropdown:hover {
+.navv a:hover, .dropdown:hover {
   background-color: rgb(157, 124, 103);
 }
 
@@ -60,7 +66,7 @@ body{
 }
 
 .dropcontent a:hover {
-  background-color: rgb(253, 226, 226);
+  background-color: rgb(224, 207, 207);
 }
 
 .dropdown:hover .dropcontent {
@@ -69,4 +75,36 @@ body{
 
 .content{
   padding: 30px;
+  background-color: #f3eeeb;
+  line-height: 1.8;
+  color: #50394c;
 }
+
+nav{
+  background-color: #f3eeeb;
+  padding: 10px;
+}
+
+.pagination{
+  padding-top: 10px;
+}
+
+.page-item{
+  padding: 5px;
+  border-radius: 8px;
+}
+
+table, th, td {
+  border: 3px solid;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+  }
+
+  table{
+    background-color: white;
+  }
+  
+  th{
+    background-color: #dcf1dc;
+  }
