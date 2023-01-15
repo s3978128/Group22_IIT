@@ -358,11 +358,16 @@ As clear and continuous communication is crucial to finishing the project, we ha
   </li>
 </ul>
     </div>
-    <nav aria-label="Page navigation">
-      <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="overview.html">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="skillsandjobs.html">Next</a></li>
-      </ul>
-    </nav>
+
+    <div class="footer">
+      <button class="footerbtn" onclick="scrollToTop()">To Top</button>
+    <script>
+      function scrollToTop() {
+      window.scrollTo(0, 0);
+      }
+    </script>
+    <button class="footerbtn"><a href="overview.html">Previous</a></button>
+   <button class="footerbtn"><a href="skillsandjobs.html">Next</a></button>
+  </div>
 </body>
 </html>
